@@ -1,6 +1,8 @@
 <script setup lang="ts">
 type Link = { name: string; link: string; }
-const list = ref<Link[]>(generateRandomLinks());
+// Generate on the server
+// Transfer to the client
+const list = useState<Link[]>('random-links', () => generateRandomLinks());
 
 function generateRandomLinks() {
   const links: Link[] = [];

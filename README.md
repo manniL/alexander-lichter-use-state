@@ -1,6 +1,6 @@
-# The new Vue 3.4 feature NOBODY talks about…
+# Why you should use `useState()`
 
 > **Note**
-> This repository contains the code for the YouTube Video [The new Vue 3.4 feature NOBODY talks about…](https://www.youtube.com/watch?v=d4-OjlicbiY).
+> This repository contains the code for the YouTube Video [Why you should use `useState()`](https://www.youtube.com/watch?v=mv0WcBABcIk).
 
-We have a look at Vue's improved hydration error messages and how they can help you to debug your Vue application.
+We have a look at what Nuxt's `useState()` function is and why you should use it, especially for transferring state from the server to the client or when implementing global state.
